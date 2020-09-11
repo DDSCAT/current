@@ -38,14 +38,12 @@ If you use DDSCAT, we request that you reference some of the papers on which DDS
 
 
 ## DDSCAT user guide
-* An extensive UserGuide is available: [http://ddscat.wikidot.com/local--files/downloads/UserGuide7.3.3_190710.pdf "UserGuide for the Discrete Dipole Approximation Code DDSCAT 7.3"]
+* An extensive UserGuide is available: [UserGuide for the Discrete Dipole Approximation Code DDSCAT 7.3](http://ddscat.wikidot.com/local--files/downloads/UserGuide7.3.3_190710.pdf)
 
-* [See book version of DDSCAT User Guide 7.3 (http://issuu.com/pcirrus/docs/1305.6497v1)**
+* [See book version of DDSCAT User Guide 7.3] (http://issuu.com/pcirrus/docs/1305.6497v1)**
 
 
-+ DDSCAT downloading and distribution notes
-
-**NOTE that as of March of 2015 we are beginning distribution of the code using this site. Previously (prior to March 2015) the code was distributed via google code.**
+## DDSCAT downloading and distribution notes
 
 We make available for download a gzipped tarfile containing complete source code and documentation for DDSCAT 7.3. To get full DDSCAT distribution begin with downloading the User Guide. If you are using LINUX/UNIX operating system get the source code distribution. For this version you will need to compile the code. This offers opportunity to set the best compilation flags, MPI, Open-MP, etc. For Windows users we offer a simple precompiled version of an earlier release (7.3.0); this is probably the fastest way to get started but also somewhat limited in ability to make source code changes. Really large DDSCAT runs should probably be done on 64-bit UNIX/LINUX.
 
