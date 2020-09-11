@@ -30,7 +30,7 @@ DDSCAT 7.3 is gratis, subject to the GNU General Public License.  You may copy, 
 ## DDSCAT references
 
 If you use DDSCAT, we request that you reference some of the papers on which DDSCAT is based
-* [http://www.opticsinfobase.org/josaa/abstract.cfm?uri=josaa-11-4-1491 Review paper is available from J. Opt. Soc. Am. site.] Draine, B.T., & Flatau, P.J., "Discrete dipole approximation for scattering calculations", J. Opt. Soc. Am. A, 11, 1491-1499 (1994) (we check citations to this paper to track the overall DDSCAT use; on occasion we implement code improvements that way!)
+* [Review paper is available from J. Opt. Soc. Am. site.](http://www.opticsinfobase.org/josaa/abstract.cfm?uri=josaa-11-4-1491) Draine, B.T., & Flatau, P.J., "Discrete dipole approximation for scattering calculations", J. Opt. Soc. Am. A, 11, 1491-1499 (1994) (we check citations to this paper to track the overall DDSCAT use; on occasion we implement code improvements that way!)
 * Draine, B.T., & Flatau, P.J., "Discrete-dipole approximation for periodic targets: theory and tests", J. Opt. Soc. Am. A, 25, 2593-2703 (2008). (if you use this option of the code)
 * P. J. Flatau and B. T. Draine, "Fast near field calculations in the discrete dipole approximation for regular rectilinear grids," Opt. Express 20, 1247-1252 (2012) (if you use this option of the code)
 * P. J. Flatau and B. T. Draine, "Light scattering by hexagonal columns in the discrete dipole approximation," Opt. Express  22, 21834-21846 (2014).
@@ -40,7 +40,7 @@ If you use DDSCAT, we request that you reference some of the papers on which DDS
 ## DDSCAT user guide
 * An extensive UserGuide is available: [http://ddscat.wikidot.com/local--files/downloads/UserGuide7.3.3_190710.pdf "UserGuide for the Discrete Dipole Approximation Code DDSCAT 7.3"]
 
-* [http://issuu.com/pcirrus/docs/1305.6497v1 See book version of DDSCAT User Guide 7.3]**
+* [See book version of DDSCAT User Guide 7.3 (http://issuu.com/pcirrus/docs/1305.6497v1)**
 
 
 + DDSCAT downloading and distribution notes
