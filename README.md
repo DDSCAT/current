@@ -1,4 +1,4 @@
-+ DDSCAT 7.3 Introduction
+# DDSCAT 7.3 Introduction
 
 Discrete Dipole Scattering (DDSCAT) is a Fortran code for calculating scattering and absorption of light by irregular particles and periodic arrangement of irregular particles.
 
@@ -60,11 +60,11 @@ Recently (2019) Microsoft made available Windows Subsystem for Linux (WSL) and y
 
 These codes are provided by users of DDSCAT and are not supported by Draine/Flatau.  We encourage  users of DDSCAT to provide additional public domain codes. You can also browse "google scholar" to see if there are some other users who developed DDSCAT related codes.
 
-|| File || Description || 
-|| [http://space.univ.kiev.ua/Choliy/DDscatcpp/  DDSCATcpp] || DDSCAT 7.3.1 written in C++  V.Choliy (2017)||
-|| [https://code.google.com/p/ddscat/downloads/detail?name=ddaconvert-r17.tar.gz ddaconvert] || R. Schuh, Arbitrary particle shape modeling in DDSCAT and validation of simulation results, in Proceedings of the DDA-Workshop, T. Wriedt and A. G. Hoekstra, Eds., pp. 22–24, Bremen, Germany (2007) || 
-|| [https://code.google.com/p/ddscat/downloads/detail?name=DDSCAT-mu%20.zip&can=2&q=#makechanges DDSCAT-mu] || Yu You, George W. Kattawar, Peng-Wang Zhai, and Ping Yang, "Zero-backscatter cloak for aspherical particles using a generalized DDA formalism," Opt. Express 16, 2068-2079 (2008)||
-|| [https://github.com/feranick/ddscat-tools shape tools] || shape utilities by Nicola Ferralis (September 2013)||
+| File | Description | 
+| [http://space.univ.kiev.ua/Choliy/DDscatcpp/  DDSCATcpp] | DDSCAT 7.3.1 written in C++  V.Choliy (2017)|
+| [https://code.google.com/p/ddscat/downloads/detail?name=ddaconvert-r17.tar.gz ddaconvert] | R. Schuh, Arbitrary particle shape modeling in DDSCAT and validation of simulation results, in Proceedings of the DDA-Workshop, T. Wriedt and A. G. Hoekstra, Eds., pp. 22–24, Bremen, Germany (2007) |
+| [https://code.google.com/p/ddscat/downloads/detail?name=DDSCAT-mu%20.zip&can=2&q=#makechanges DDSCAT-mu] | Yu You, George W. Kattawar, Peng-Wang Zhai, and Ping Yang, "Zero-backscatter cloak for aspherical particles using a generalized DDA formalism," Opt. Express 16, 2068-2079 (2008)|
+| [https://github.com/feranick/ddscat-tools shape tools] | shape utilities by Nicola Ferralis (September 2013)|
 
 
 [[f=image /downloads/DSC_0636web.jpg width="150px"]] Flatau (left) and Draine
