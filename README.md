@@ -27,7 +27,7 @@ DDSCAT 7.3.3 is publicly available, and is now considered to be the standard ver
 DDSCAT 7.3 is gratis, subject to the GNU General Public License.  You may copy, distribute, and/or modify the software identified as under this agreement.  If you distribute copies of this software, you must give the recipients all the rights that you have. 
 
 
-+ DDSCAT references
+## DDSCAT references
 
 If you use DDSCAT, we request that you reference some of the papers on which DDSCAT is based
 * [http://www.opticsinfobase.org/josaa/abstract.cfm?uri=josaa-11-4-1491 Review paper is available from J. Opt. Soc. Am. site.] Draine, B.T., & Flatau, P.J., "Discrete dipole approximation for scattering calculations", J. Opt. Soc. Am. A, 11, 1491-1499 (1994) (we check citations to this paper to track the overall DDSCAT use; on occasion we implement code improvements that way!)
@@ -37,7 +37,7 @@ If you use DDSCAT, we request that you reference some of the papers on which DDS
 
 
 
-+ DDSCAT user guide
+## DDSCAT user guide
 * An extensive UserGuide is available: [http://ddscat.wikidot.com/local--files/downloads/UserGuide7.3.3_190710.pdf "UserGuide for the Discrete Dipole Approximation Code DDSCAT 7.3"]
 
 * [http://issuu.com/pcirrus/docs/1305.6497v1 See book version of DDSCAT User Guide 7.3]**
@@ -50,34 +50,7 @@ If you use DDSCAT, we request that you reference some of the papers on which DDS
 We make available for download a gzipped tarfile containing complete source code and documentation for DDSCAT 7.3. To get full DDSCAT distribution begin with downloading the User Guide. If you are using LINUX/UNIX operating system get the source code distribution. For this version you will need to compile the code. This offers opportunity to set the best compilation flags, MPI, Open-MP, etc. For Windows users we offer a simple precompiled version of an earlier release (7.3.0); this is probably the fastest way to get started but also somewhat limited in ability to make source code changes. Really large DDSCAT runs should probably be done on 64-bit UNIX/LINUX.
 
 
-+ Windows version
+## Windows version
 
 Recently (2019) Microsoft made available Windows Subsystem for Linux (WSL) and you can install UBUNTU (LINUX) as an app. This is very simple and we describe this process in the recent versions of the manual. This is a prefered way to run DDSCAT on Windows. Currently, to run DDSCAT on Windows you will need to know how to use a "command window" (there is no graphical interface).  Also notice that by default Windows operating system hides some files - that may influence your ability to "see" files extensions such as ddscat.par. For large problems with, say one milion of dipoles or more, you will run into 2Gbyte memory limit if you are using a 32-bit computer. To solve this problem on both Windows and Linux move to a 64-bit operating system and use 64-bit compilers. You may also run into stack size limitation when running the code with OpenMP. In such case try
  * ulimit -s unlimited
-
-
-+ User provided codes
-
-These codes are provided by users of DDSCAT and are not supported by Draine/Flatau.  We encourage  users of DDSCAT to provide additional public domain codes. You can also browse "google scholar" to see if there are some other users who developed DDSCAT related codes.
-
-| File | Description | 
-| [http://space.univ.kiev.ua/Choliy/DDscatcpp/  DDSCATcpp] | DDSCAT 7.3.1 written in C++  V.Choliy (2017)|
-| [https://code.google.com/p/ddscat/downloads/detail?name=ddaconvert-r17.tar.gz ddaconvert] | R. Schuh, Arbitrary particle shape modeling in DDSCAT and validation of simulation results, in Proceedings of the DDA-Workshop, T. Wriedt and A. G. Hoekstra, Eds., pp. 22–24, Bremen, Germany (2007) |
-| [https://code.google.com/p/ddscat/downloads/detail?name=DDSCAT-mu%20.zip&can=2&q=#makechanges DDSCAT-mu] | Yu You, George W. Kattawar, Peng-Wang Zhai, and Ping Yang, "Zero-backscatter cloak for aspherical particles using a generalized DDA formalism," Opt. Express 16, 2068-2079 (2008)|
-| [https://github.com/feranick/ddscat-tools shape tools] | shape utilities by Nicola Ferralis (September 2013)|
-
-
-[[f=image /downloads/DSC_0636web.jpg width="150px"]] Flatau (left) and Draine
-
-[[embed]]
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
-var sc_project=3446612; 
-var sc_invisible=0; 
-var sc_partition=38; 
-var sc_security="f40e50df"; 
-</script>
-
-<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a href="http://www.statcounter.com/" target="_blank"><img class="statcounter" src="http://c39.statcounter.com/3446612/0/f40e50df/0/" alt="unique visitor counter" ></a></div></noscript>
-<!-- End of StatCounter Code -->
-[[/embed]]
