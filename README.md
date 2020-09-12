@@ -2,7 +2,6 @@
 
 Discrete Dipole Scattering (DDSCAT) is a Fortran code for calculating scattering and absorption of light by irregular particles and periodic arrangement of irregular particles.
 
-[It is one of the most cited code of computational optics](https://www.osapublishing.org/josa100/topcited_josaa.cfm)
 
 It has been jointly developed by 
 * [Bruce T. Draine](http://en.wikipedia.org/wiki/Bruce_T._Draine) Department of Astrophysical Sciences, Princeton University, draine@astro.princeton.edu
@@ -47,3 +46,6 @@ We make available for download a gzipped tarfile containing complete source code
 
 Recently (2019) Microsoft made available Windows Subsystem for Linux (WSL) and you can install UBUNTU (LINUX) as an app. This is very simple and we describe this process in the recent versions of the manual. This is a prefered way to run DDSCAT on Windows. Currently, to run DDSCAT on Windows you will need to know how to use a "command window" (there is no graphical interface).  Also notice that by default Windows operating system hides some files - that may influence your ability to "see" files extensions such as ddscat.par. For large problems with, say one milion of dipoles or more, you will run into 2Gbyte memory limit if you are using a 32-bit computer. To solve this problem on both Windows and Linux move to a 64-bit operating system and use 64-bit compilers. You may also run into stack size limitation when running the code with OpenMP. In such case try
  * ulimit -s unlimited
+ 
+ ## Cudos
+ DDSCAT [is one of the most cited code of computational optics](https://www.osapublishing.org/josa100/topcited_josaa.cfm)
